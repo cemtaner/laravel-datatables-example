@@ -30,7 +30,7 @@
     $(document).ready(function() {
         $('#products-table').DataTable({
             searching: true,
-			      type:'GET',
+			type:'GET',
             ajax: '{{ route("getProducts") }}',
             columns: [
                 { data: 'id', name: 'id'},
