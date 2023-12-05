@@ -13,7 +13,7 @@ This sample datatable code simply shows you how to retrieve data from the datata
 
 ## How to Install?
 
-git clone https://github.com/cemtaner/laravel-datatables-example<br>
+git clone https://github.com/cemtaner/laravel-datatables-example.git<br>
 composer update<br>
 php artisan migrate:fresh --seed<br>
 php artisan serve<br>
